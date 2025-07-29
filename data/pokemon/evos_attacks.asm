@@ -85,11 +85,11 @@ EvosAttacks::
 	learnset 9, VINE_WHIP
 	learnset 13, POISONPOWDER
 	learnset 13, SLEEP_POWDER
-	learnset 15, MUD_SLAP ; Take Down → GSC TM move
+	learnset 15, MEGA_DRAIN ; Take Down → RBY TM move
 	learnset 19, RAZOR_LEAF
 	learnset 21, TAKE_DOWN ; Sweet Scent → Take Down
 	learnset 25, GROWTH
-	learnset 27, DOUBLE_EDGE
+	learnset 27, GIGA_DRAIN ; Double Edge → TM move
 	learnset 31, ANCIENTPOWER ; Worry Seed → event move
 	learnset 33, HEALINGLIGHT ; Synthesis → similar move
 	learnset 37, SEED_BOMB
@@ -103,11 +103,11 @@ EvosAttacks::
 	learnset 9, VINE_WHIP
 	learnset 13, POISONPOWDER
 	learnset 13, SLEEP_POWDER
-	learnset 15, MUD_SLAP ; Take Down → GSC TM move
+	learnset 15, MEGA_DRAIN ; Take Down → RBY TM move
 	learnset 20, RAZOR_LEAF
 	learnset 23, TAKE_DOWN ; Sweet Scent → Take Down
 	learnset 28, GROWTH
-	learnset 31, DOUBLE_EDGE
+	learnset 31, GIGA_DRAIN ; Double Edge → TM move
 	learnset 36, ANCIENTPOWER ; Worry Seed → event move
 	learnset 39, HEALINGLIGHT ; Synthesis → similar move
 	learnset 44, SEED_BOMB
@@ -115,6 +115,7 @@ EvosAttacks::
 
 	evos_attacks Venusaur
 	learnset 1, PETAL_DANCE ; evolution move
+	learnset 1, HEALINGLIGHT
 	learnset 1, OUTRAGE ; HGSS tutor move
 	learnset 1, TACKLE
 	learnset 3, GROWL
@@ -122,11 +123,11 @@ EvosAttacks::
 	learnset 9, VINE_WHIP
 	learnset 13, POISONPOWDER
 	learnset 13, SLEEP_POWDER
-	learnset 15, MUD_SLAP ; Take Down → GSC TM move
+	learnset 15, MEGA_DRAIN ; Take Down → RBY TM move
 	learnset 20, RAZOR_LEAF
 	learnset 23, TAKE_DOWN ; Sweet Scent → Take Down
 	learnset 28, GROWTH
-	learnset 31, DOUBLE_EDGE
+	learnset 31, GIGA_DRAIN ; Double Edge → TM move
 	learnset 39, ANCIENTPOWER ; Worry Seed → event move
 	learnset 45, HEALINGLIGHT ; Synthesis → similar move
 	learnset 50, SEED_BOMB
@@ -142,7 +143,7 @@ EvosAttacks::
 	learnset 16, METAL_CLAW ; Dragon Rage → TM move
 	learnset 19, DRAGON_RAGE ; Scary Face → Dragon Rage
 	learnset 25, SCARY_FACE ; Fire Fang → Scary Face
-	learnset 28, FLAME_CHARGE ; Flame Burst → TM move
+	learnset 28, FIRE_PUNCH ; Flame Burst → tutor move
 	learnset 34, SLASH
 	learnset 37, FLAMETHROWER
 	learnset 43, FIRE_SPIN
@@ -158,7 +159,7 @@ EvosAttacks::
 	learnset 17, METAL_CLAW ; Dragon Rage → TM move
 	learnset 21, DRAGON_RAGE ; Scary Face → Dragon Rage
 	learnset 28, SCARY_FACE ; Fire Fang → Scary Face
-	learnset 32, FLAME_CHARGE ; Flame Burst → TM move
+	learnset 32, FIRE_PUNCH ; Flame Burst → tutor move
 	learnset 39, SLASH
 	learnset 43, FLAMETHROWER
 	learnset 50, FIRE_SPIN
@@ -180,7 +181,7 @@ EvosAttacks::
 	learnset 17, METAL_CLAW ; Dragon Rage → TM move
 	learnset 21, DRAGON_RAGE ; Scary Face → Dragon Rage
 	learnset 28, SCARY_FACE ; Fire Fang → Scary Face
-	learnset 32, FLAME_CHARGE ; Flame Burst → TM move
+	learnset 32, FIRE_PUNCH ; Flame Burst → tutor move
 	learnset 41, SLASH
 	learnset 47, FLAMETHROWER
 	learnset 56, FIRE_SPIN
