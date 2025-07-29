@@ -6,7 +6,9 @@ EggSpeciesMoves::
 
 BulbasaurEggSpeciesMoves:
 	dp BULBASAUR, PLAIN_FORM
+	db CALM_MIND
 	db CHARM
+	db HEALINGLIGHT
 	db PETAL_DANCE
 	db LIGHT_SCREEN
 	db SAFEGUARD
@@ -349,11 +351,13 @@ TentacoolEggSpeciesMoves:
 GeodudePlainEggSpeciesMoves:
 	dp GEODUDE, PLAIN_FORM
 	db ROCK_SLIDE
+	db ENCORE
 	db $ff
 
 GeodudeAlolanEggSpeciesMoves:
 	dp GEODUDE, ALOLAN_FORM
 	db ROCK_SLIDE
+	db ENCORE
 	db $ff
 
 PonytaPlainEggSpeciesMoves:
@@ -481,6 +485,7 @@ GastlyEggSpeciesMoves:
 	db ASTONISH
 	db DISABLE
 	db HAZE
+	db ENCORE
 	db PERISH_SONG
 	db SCARY_FACE
 	db NASTY_PLOT
@@ -500,6 +505,7 @@ DrowzeeEggSpeciesMoves:
 	db BARRIER
 	db LIGHT_SCREEN
 	db BELLY_DRUM
+	db ENCORE
 	db $ff
 
 KrabbyEggSpeciesMoves:
@@ -1135,6 +1141,7 @@ SmoochumEggSpeciesMoves:
 	dp SMOOCHUM, PLAIN_FORM
 	db BULK_UP
 	db NASTY_PLOT
+	db ENCORE
 	db $ff
 
 ElekidEggSpeciesMoves:
