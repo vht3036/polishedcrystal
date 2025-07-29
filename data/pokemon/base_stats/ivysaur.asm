@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for IVYSAUR, OVERGROW, CHLOROPHYLL, EFFECT_SPORE
+	abilities_for IVYSAUR, OVERGROW, EFFECT_SPORE, CHLOROPHYLL
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_PLANT ; egg groups
 
