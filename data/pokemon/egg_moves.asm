@@ -351,13 +351,11 @@ TentacoolEggSpeciesMoves:
 GeodudePlainEggSpeciesMoves:
 	dp GEODUDE, PLAIN_FORM
 	db ROCK_SLIDE
-	db ENCORE
 	db $ff
 
 GeodudeAlolanEggSpeciesMoves:
 	dp GEODUDE, ALOLAN_FORM
 	db ROCK_SLIDE
-	db ENCORE
 	db $ff
 
 PonytaPlainEggSpeciesMoves:
@@ -485,7 +483,6 @@ GastlyEggSpeciesMoves:
 	db ASTONISH
 	db DISABLE
 	db HAZE
-	db ENCORE
 	db PERISH_SONG
 	db SCARY_FACE
 	db NASTY_PLOT
