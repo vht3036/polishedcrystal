@@ -8,6 +8,8 @@ BulbasaurEggSpeciesMoves:
 	dp BULBASAUR, PLAIN_FORM
 	db CHARM
 	db PETAL_DANCE
+	db CALM_MIND
+	db HEALINGLIGHT
 	db LIGHT_SCREEN
 	db SAFEGUARD
 	db POWER_WHIP
@@ -22,6 +24,7 @@ CharmanderEggSpeciesMoves:
 	db DRAGON_DANCE
 	db DRAGONBREATH
 	db FLARE_BLITZ
+	db METAL_CLAW
 	db OUTRAGE
 	db $ff
 
@@ -29,6 +32,7 @@ SquirtleEggSpeciesMoves:
 	dp SQUIRTLE, PLAIN_FORM
 	db CONFUSION
 	db CRUNCH
+	db CLOSE_COMBAT
 	db FORESIGHT
 	db HAZE
 	db MIRROR_COAT
@@ -172,6 +176,8 @@ ZubatEggSpeciesMoves:
 OddishEggSpeciesMoves:
 	dp ODDISH, PLAIN_FORM
 	db CHARM
+	db DIG
+	db SHADOW_BALL
 	db RAZOR_LEAF
 	db HEALINGLIGHT
 	db SWORDS_DANCE
@@ -442,6 +448,7 @@ SeelEggSpeciesMoves:
 	db PECK
 	db PERISH_SONG
 	db ENCORE
+	db BELLY_DRUM
 	db WATER_PULSE
 	db ICICLE_SPEAR
 	db $ff
@@ -524,6 +531,8 @@ ExeggcuteEggSpeciesMoves:
 	dp EXEGGCUTE, PLAIN_FORM
 	db MEGA_DRAIN
 	db HEALINGLIGHT
+	db DRAGONBREATH
+	db DRAGON_DANCE
 	db ANCIENTPOWER
 	db REFLECT
 	db $ff
@@ -617,6 +626,7 @@ ScytherEggSpeciesMoves:
 
 PinsirEggSpeciesMoves:
 	dp PINSIR, PLAIN_FORM
+	db CHARM
 	db FEINT_ATTACK
 	db FURY_STRIKES
 	db QUICK_ATTACK
@@ -680,7 +690,7 @@ AerodactylEggSpeciesMoves:
 
 DratiniEggSpeciesMoves:
 	dp DRATINI, PLAIN_FORM
-	db EXTREMESPEED ; requires Dragon Shrine Dratini
+	db EXTREMESPEED
 	db HAZE
 	db SUPERSONIC
 	db WATER_PULSE
@@ -1141,6 +1151,7 @@ ElekidEggSpeciesMoves:
 	dp ELEKID, PLAIN_FORM
 	db BARRIER
 	db CROSS_CHOP
+	db BELLY_DRUM
 	db KARATE_CHOP
 	db BULK_UP
 	db $ff
