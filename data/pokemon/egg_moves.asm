@@ -1222,6 +1222,7 @@ MimeJrEggSpeciesMoves:
 HappinyEggSpeciesMoves:
 	dp HAPPINY, PLAIN_FORM
 	db HEAL_BELL
+	db SEISMIC_TOSS
 	db $ff
 
 MantykeEggSpeciesMoves:
