@@ -95,7 +95,11 @@ endc
 	move LOW_KICK,        EFFECT_LOW_KICK,            1, FIGHTING,  100, 20,  30, PHYSICAL
 	move COUNTER,         EFFECT_COUNTER,             1, FIGHTING,   -1, 20,   0, PHYSICAL
 	move SEISMIC_TOSS,    EFFECT_LEVEL_DAMAGE,        1, FIGHTING,  100, 20,   0, PHYSICAL
+if DEF(FAITHFUL)
 	move STRENGTH,        EFFECT_NORMAL_HIT,         80, NORMAL,    100, 15,   0, PHYSICAL
+else
+	move STRENGTH,        EFFECT_DEFENSE_DOWN_HIT,   80, NORMAL,    100, 15,  30, PHYSICAL
+endc
 	move ABSORB,          EFFECT_LEECH_HIT,          20, GRASS,     100, 25,   0, SPECIAL
 	move MEGA_DRAIN,      EFFECT_LEECH_HIT,          40, GRASS,     100, 15,   0, SPECIAL
 	move LEECH_SEED,      EFFECT_LEECH_SEED,          0, GRASS,      90, 10,   0, STATUS
@@ -278,7 +282,11 @@ endc
 	move SHELL_SMASH,     EFFECT_SHELL_SMASH,         0, NORMAL,     -1, 15,   0, STATUS
 	move SPARK,           EFFECT_PARALYZE_HIT,       65, ELECTRIC,  100, 20,  30, PHYSICAL
 	move BUG_BITE,        EFFECT_BUG_BITE,           60, BUG,       100, 20,   0, PHYSICAL
+if DEF(FAITHFUL)
 	move STEEL_WING,      EFFECT_DEFENSE_UP_HIT,     70, STEEL,      90, 25,  10, PHYSICAL
+else
+	move STEEL_WING,      EFFECT_DEFENSE_UP_HIT,     70, STEEL,     100, 25,  10, PHYSICAL
+endc
 	move MEAN_LOOK,       EFFECT_MEAN_LOOK,           0, NORMAL,     -1,  5,   0, STATUS
 	move ATTRACT,         EFFECT_ATTRACT,             0, NORMAL,    100, 15,   0, STATUS
 	move SLEEP_TALK,      EFFECT_SLEEP_TALK,          0, NORMAL,    100, 10,   0, STATUS
